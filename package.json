@@ -1,0 +1,16 @@
+{
+  "name": "03-meeti",
+  "version": "1.0.0",
+  "description": "Aprendiendo Bootstrap y Sass",
+  "main": "index.js",
+  "scripts": {
+    "compilar:sass" : "sass --watch src/scss:build/css",
+    "build:sass" : "purgecss --css build/css/styles.css --content index.html --output build/css/meeti.css"
+  },
+  "author": "Victorio Ortega",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap": "^5.2.3",
+    "sass": "^1.59.3"
+  }
+}
